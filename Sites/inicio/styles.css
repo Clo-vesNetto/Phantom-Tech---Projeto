@@ -1,0 +1,99 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgb(94, 0, 94), rgb(74, 0, 74), rgb(52, 0, 52), black);
+    color: white;
+}
+
+#all {
+    margin-top: 80px;
+}
+
+#menu {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 3px 1px rgba(238, 238, 238, 0.263);
+    padding: 10px;
+    color: white;
+}
+
+.secao{
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.sobre{
+    width: 650px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+a {
+    margin: 40px;
+    margin-left: 10px;
+    font-weight: 500;
+    padding: 5px;
+    cursor:pointer;
+}
+
+.click{
+    border: none;
+    background-color: white;
+    
+}
+
+.iniciu {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 14px;
+    margin: 20px 0px 30px;
+}
+
+.entra {
+    background: rgba(52, 52, 255, 0.811);
+    color: rgb(255, 255, 255);
+    border-radius: 25.6px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    width:100px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.explore{
+    background: rgba(52, 52, 255, 0.811);
+    box-shadow: 0px 2px 1px black;
+    color: rgb(255, 255, 255);
+    border-radius: 25.6px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    width:102px;
+    height: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.imagem {
+    height: 280px;
+    width: 260px;
+    margin-top:40px;
+    margin-left: 130px;
+    display: inline-block;
+}
+

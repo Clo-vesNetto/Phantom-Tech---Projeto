@@ -1,0 +1,129 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgb(94, 0, 94), rgb(74, 0, 74), rgb(52, 0, 52), black);
+}
+
+#menu {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 3px 1px rgba(103, 103, 103, 0.263);
+    padding: 10px;
+    color: white;
+}
+
+a {
+    margin: 40px;
+    margin-left: 10px;
+    font-weight: 500;
+    padding: 5px;
+    cursor:pointer;
+}
+
+.entra {
+    background: rgba(52, 52, 255, 0.811);
+    color: rgb(255, 255, 255);
+    border-radius: 25.6px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    width:100px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.iniciu {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.login {
+    margin-left: 500px;
+    margin-top: 80px;
+    border-style: solid;
+    border-color: rgb(58, 0, 47);
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 2px white;
+    padding: 10px;
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgb(94, 0, 94), rgb(29, 1, 29));
+}
+
+.dados {
+    text-align: center;
+}
+
+.dado {
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bolder;
+    border-color: rgba(126, 126, 126, 0.312);
+}
+
+.dado-1 {
+    margin-top: 10px;
+
+}
+
+.dado-2 {
+    margin-top: 30px;
+    width: 230px;
+}
+
+.imagem {
+    margin-left: 158px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 180px;
+}
+
+
+.botao-entrar {
+    background: rgba(52, 52, 255, 0.811);
+    color: rgb(255, 255, 255);
+    border-radius: 5.6px;
+    border: none;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    width:150px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.botao-registro {
+    background: rgba(52, 52, 255, 0.811);
+    box-shadow: 0px 2px 1px black;
+    color: rgb(255, 255, 255);
+    border-radius: 5.6px;
+    border: none;
+    font-weight: bolder;
+    font-size: 15px;
+    width:102px;
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.esqueci {
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
