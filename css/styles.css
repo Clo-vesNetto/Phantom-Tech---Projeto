@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --color: #ffff;
+    --background: #890089;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--color);
+    font-size: 17px;
+}
+
+body {
+    background-image: linear-gradient(to right, #420042, #370037, #240024, #180018);
+}
+
+.app {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    box-shadow: 0px 1.12px 0px #fff;
+    gap: 7rem;
+}
+
+h1 {
+    margin-left: 1rem;
+    font-family: "Roboto Condensed", serif;;
+}
+
+h1 a {
+    font-size: 1.28rem;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 5.2rem;
+    text-align: center;
+}    
+
+
+li {
+    height: 1.7rem;
+    font-weight: 700;
+    font-family: "Space Mono", serif;
+}
+
+header a:hover {
+    text-transform: uppercase;
+    transition: 300ms;
+    color: #8383ff;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+span {
+    margin-right: 5rem;
+    padding: 5px;
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 20px;
+    font-family: "Space Mono", serif;
+    margin-bottom: 0.5rem;
+    background-color: var(--background);
+    border-style: solid;
+    line-height: 1.25rem;
+}                                 
+
+span a {
+    font-size: 18px;
+}
+
+
+main {
+    align-items: center;
+    display: flex;
+    margin-top: 5.8rem;
+    gap: 7.65rem;
+}
+
+img {
+    display: flex;
+    margin-left: 10rem;
+}
+
+.about {
+    width: 48rem;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 23px;
+    line-height: 3rem;
+    font-family: "Space Mono", serif;
+}
+
+.about p {
+    font-size: 13px;
+    margin-bottom: 1rem;
+    font-family: "Space Mono", serif;
+}
+
+
